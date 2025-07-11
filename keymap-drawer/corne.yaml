@@ -38,9 +38,9 @@ layers:
   - /
   - ''
   - ''
-  - {t: ESCAPE, h: util}
-  - {t: SPACE, h: nav, type: held}
-  - {t: ENTER, h: util, type: held}
+  - {t: ESCAPE, h: num}
+  - {t: SPACE, h: nav}
+  - {t: ENTER, h: util}
   - {t: BACKSPACE, h: util}
   - ''
   dvorak:
@@ -81,7 +81,7 @@ layers:
   - Z
   - ''
   - ''
-  - {t: ESCAPE, h: util}
+  - {t: ESCAPE, h: num}
   - {t: SPACE, h: nav}
   - {t: ENTER, h: util}
   - {t: BACKSPACE, h: util}
@@ -167,9 +167,9 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
   - TAB
-  - {t: ▽, type: trans}
+  - {type: held}
   - ''
   - ''
   num:
@@ -210,7 +210,7 @@ layers:
   - \
   - ''
   - ''
-  - {t: ▽, type: trans}
+  - {type: held}
   - ''
   - '0'
   - '-'
@@ -254,8 +254,8 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
   - ''
   - ''
 combos:
@@ -263,4 +263,4 @@ combos:
   k: TAB
   l: [qwerty, dvorak]
 - p: [38, 39]
-  k: qwerty
+  k: func
