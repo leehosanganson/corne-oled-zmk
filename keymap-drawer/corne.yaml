@@ -37,12 +37,12 @@ layers:
   - .
   - /
   - ''
-  - ''
-  - {t: ESCAPE, h: num}
-  - {t: SPACE, h: nav}
+  - LEFT SHIFT
+  - {t: ESCAPE, h: nav}
+  - {t: SPACE, h: num}
   - {t: ENTER, h: util}
   - {t: BACKSPACE, h: util}
-  - ''
+  - RIGHT SHIFT
   dvorak:
   - ''
   - .
@@ -80,12 +80,12 @@ layers:
   - V
   - Z
   - ''
-  - ''
-  - {t: ESCAPE, h: num}
-  - {t: SPACE, h: nav}
+  - LEFT SHIFT
+  - {t: ESCAPE, h: nav}
+  - {t: SPACE, h: num}
   - {t: ENTER, h: util}
   - {t: BACKSPACE, h: util}
-  - ''
+  - RIGHT SHIFT
   nav:
   - ''
   - ''
@@ -124,8 +124,8 @@ layers:
   - END
   - ''
   - ''
-  - ''
   - {type: held}
+  - {t: ▽, type: trans}
   - TAB
   - DEL
   - ''
@@ -210,10 +210,10 @@ layers:
   - \
   - ''
   - ''
+  - {t: ▽, type: trans}
   - {type: held}
-  - ''
-  - '0'
   - '-'
+  - '0'
   - ''
   func:
   - ''
