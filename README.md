@@ -1,3 +1,7 @@
+[![Build Status](../../actions/workflows/build.yml/badge.svg)](../../actions)
+[![Download Firmware](https://img.shields.io/badge/Download-Firmware-blue?logo=github)](../../releases/latest)
+
+
 # Corne Keyboard Guide
 This guide is for flashing the Ergomech Corne Keyboard. The Corne is 6×3+3 keys column-staggered split keyboard, using Cherry or Choc switches.
 
