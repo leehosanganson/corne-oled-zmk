@@ -37,12 +37,12 @@ layers:
   - .
   - /
   - ''
-  - LEFT SHIFT
+  - {t: LEFT SHIFT, h: sym}
   - {t: ESCAPE, h: nav}
   - {t: SPACE, h: num}
   - {t: ENTER, h: util}
   - {t: BACKSPACE, h: util}
-  - RIGHT SHIFT
+  - {t: DELETE, h: func}
   dvorak:
   - ''
   - .
@@ -85,7 +85,7 @@ layers:
   - {t: SPACE, h: num}
   - {t: ENTER, h: util}
   - {t: BACKSPACE, h: util}
-  - RIGHT SHIFT
+  - {t: DELETE, h: func}
   nav:
   - ''
   - ''
@@ -127,15 +127,15 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - TAB
-  - DEL
-  - ''
+  - BACKSPACE
+  - DELETE
   util:
   - ''
-  - {t: BT, h: '3'}
-  - ''
-  - ''
-  - ''
-  - Ctl+PRINTSCREEN
+  - STOP
+  - PAUSE
+  - MUTE
+  - VOLUME UP
+  - VOLUME DOWN
   - ''
   - ''
   - ''
@@ -146,8 +146,8 @@ layers:
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
-  - BT CLR
-  - SCROLLLOCK
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
   - ''
   - RSHIFT
   - RCTRL
@@ -156,10 +156,10 @@ layers:
   - ''
   - ''
   - '&studio_unlock'
+  - BT CLR
   - ''
   - ''
   - ''
-  - PAUSE
   - ''
   - ''
   - ''
@@ -191,11 +191,11 @@ layers:
   - LCTRL
   - LEFT SHIFT
   - (
-  - ;
+  - '='
   - '4'
   - '5'
   - '6'
-  - '='
+  - ;
   - ''
   - ''
   - ''
@@ -217,8 +217,8 @@ layers:
   - ''
   func:
   - ''
-  - ''
-  - ''
+  - {t: qwerty, h: toggle}
+  - {t: dvorak, h: toggle}
   - ''
   - ''
   - ''
@@ -233,8 +233,8 @@ layers:
   - LEFT ALT
   - LCTRL
   - LEFT SHIFT
-  - {t: qwerty, h: toggle}
-  - {t: dvorak, h: toggle}
+  - ''
+  - ''
   - F4
   - F5
   - F6
@@ -254,9 +254,52 @@ layers:
   - ''
   - ''
   - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
   - {type: held}
+  sym:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ':'
+  - '{'
+  - '&'
+  - '*'
+  - (
+  - '}'
+  - ''
+  - ''
+  - LEFT GUI
+  - LEFT ALT
+  - LCTRL
+  - LEFT SHIFT
+  - (
+  - +
+  - $
+  - '%'
+  - ^
+  - ':'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '~'
+  - '~'
+  - '!'
+  - '"'
+  - '#'
+  - '|'
+  - ''
   - {type: held}
   - ''
+  - ''
+  - _
+  - )
   - ''
 combos:
 - p: [1, 2]
