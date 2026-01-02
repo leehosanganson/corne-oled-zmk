@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: corne}
 layers:
-  qwerty:
+  QWERTY:
   - ''
   - Q
   - W
@@ -37,13 +37,13 @@ layers:
   - .
   - /
   - ''
-  - {t: LEFT SHIFT, h: sym}
-  - {t: ESCAPE, h: nav}
-  - {t: SPACE, h: num}
-  - {t: ENTER, h: util}
-  - {t: BACKSPACE, h: util}
-  - {t: DELETE, h: func}
-  dvorak:
+  - {t: LEFT SHIFT, h: SYM}
+  - {t: ESCAPE, h: NAV}
+  - {t: SPACE, h: NUM}
+  - {t: ENTER, h: UTILS}
+  - {t: BACKSPACE, h: UTILS}
+  - {t: DELETE, h: FUNC}
+  DVORAK:
   - ''
   - .
   - <
@@ -81,12 +81,12 @@ layers:
   - Z
   - ''
   - LEFT SHIFT
-  - {t: ESCAPE, h: nav}
-  - {t: SPACE, h: num}
-  - {t: ENTER, h: util}
-  - {t: BACKSPACE, h: util}
-  - {t: DELETE, h: func}
-  nav:
+  - {t: ESCAPE, h: NAV}
+  - {t: SPACE, h: NUM}
+  - {t: ENTER, h: UTILS}
+  - {t: BACKSPACE, h: UTILS}
+  - {t: DELETE, h: FUNC}
+  NAV:
   - ''
   - ''
   - ''
@@ -129,7 +129,7 @@ layers:
   - TAB
   - BACKSPACE
   - DELETE
-  util:
+  UTILS:
   - ''
   - STOP
   - PAUSE
@@ -172,7 +172,7 @@ layers:
   - {type: held}
   - ''
   - ''
-  num:
+  NUM:
   - ''
   - ''
   - ''
@@ -215,10 +215,10 @@ layers:
   - '-'
   - '0'
   - ''
-  func:
+  FUNC:
   - ''
-  - {t: qwerty, h: toggle}
-  - {t: dvorak, h: toggle}
+  - {t: QWERTY, h: toggle}
+  - {t: DVORAK, h: toggle}
   - ''
   - ''
   - ''
@@ -258,7 +258,7 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - {type: held}
-  sym:
+  SYM:
   - ''
   - ''
   - ''
@@ -304,6 +304,6 @@ layers:
 combos:
 - p: [1, 2]
   k: TAB
-  l: [qwerty, dvorak]
+  l: [QWERTY, DVORAK]
 - p: [38, 39]
-  k: func
+  k: FUNC
