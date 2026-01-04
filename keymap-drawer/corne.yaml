@@ -315,11 +315,11 @@ layers:
   - ''
   - ''
   - ''
+  - Z
   - Q
   - W
   - E
   - R
-  - T
   - ''
   - ''
   - ''
@@ -327,19 +327,19 @@ layers:
   - ''
   - ''
   - ''
+  - LEFT SHIFT
   - A
   - S
   - D
   - F
-  - G
   - ''
   - ''
   - ''
   - ''
   - ''
   - ''
+  - LEFT ALT
   - LCTRL
-  - LEFT SHIFT
   - SPACE
   - QWERTY
   - {t: QWERTY, h: toggle}
