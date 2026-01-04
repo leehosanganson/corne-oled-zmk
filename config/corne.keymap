@@ -136,5 +136,15 @@
                                    &trans     &none           &none                   &kp UNDERSCORE  &kp RPAR  &none
             >;
         };
+
+        mmo {
+            display-name = "MMO";
+            bindings = <
+&none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &kp N5       &kp LS(LC(LA(Q)))  &kp LS(LC(LA(Z)))  &none  &none  &none  &none
+&none  &kp Q         &kp W         &kp E         &kp R           &kp T        &none              &none              &none  &none  &none  &none
+&none  &kp A         &kp S         &kp D         &kp F           &kp G        &none              &none              &none  &none  &none  &none
+                                   &kp LCTRL     &kp LEFT_SHIFT  &kp SPACE    &mo 0              &to 0              &none
+            >;
+        };
     };
 };
