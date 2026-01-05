@@ -219,7 +219,7 @@ layers:
   - ''
   - {t: QWERTY, h: toggle}
   - {t: DVORAK, h: toggle}
-  - ''
+  - {t: MMO, h: toggle}
   - ''
   - ''
   - ''
