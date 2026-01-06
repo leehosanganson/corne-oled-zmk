@@ -24,13 +24,25 @@
 
         quick_tab {
             bindings = <&kp TAB>;
-            key-positions = <1 2>;
-            layers = <0 1>;
+            key-positions = <13 14>;
+            layers = <0 1 7>;
         };
 
         to_func {
             bindings = <&mo 5>;
             key-positions = <38 39>;
+        };
+
+        quick_esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <1 2>;
+            layers = <0 1 7>;
+        };
+
+        to_game2 {
+            bindings = <&mo 8>;
+            key-positions = <37 29>;
+            layers = <7>;
         };
     };
 
@@ -137,14 +149,25 @@
             >;
         };
 
-        mmo {
-            display-name = "MMO";
+        game1 {
+            display-name = "GAME1";
             bindings = <
 &none  &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5       &kp LS(LC(LA(Q)))  &kp LS(LC(LA(Z)))  &none  &none  &none  &none
 &none  &kp Z           &kp Q         &kp W         &kp E         &kp R        &none              &none              &none  &none  &none  &none
 &none  &kp LEFT_SHIFT  &kp A         &kp S         &kp D         &kp F        &none              &none              &none  &none  &none  &none
                                      &kp LEFT_ALT  &kp LCTRL     &kp SPACE    &none              &to 0              &none
             >;
+        };
+
+        game2 {
+            bindings = <
+&none  &kp F1  &kp F2  &kp F3  &kp F4  &kp G     &none  &none  &none  &none  &none  &none
+&none  &none   &none   &trans  &none   &none     &none  &none  &none  &none  &none  &none
+&none  &none   &trans  &trans  &trans  &trans    &none  &none  &none  &none  &none  &none
+                       &none   &trans  &none     &none  &none  &none
+            >;
+
+            label = "GAME2";
         };
     };
 };
