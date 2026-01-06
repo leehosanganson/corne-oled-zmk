@@ -219,7 +219,7 @@ layers:
   - ''
   - {t: QWERTY, h: toggle}
   - {t: DVORAK, h: toggle}
-  - {t: MMO, h: toggle}
+  - {t: GAME1, h: toggle}
   - ''
   - ''
   - ''
@@ -301,7 +301,7 @@ layers:
   - _
   - )
   - ''
-  MMO:
+  GAME1:
   - ''
   - '1'
   - '2'
@@ -344,9 +344,58 @@ layers:
   - ''
   - {t: QWERTY, h: toggle}
   - ''
+  GAME2:
+  - ''
+  - F1
+  - F2
+  - F3
+  - F4
+  - G
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
 combos:
-- p: [1, 2]
+- p: [13, 14]
   k: TAB
-  l: [QWERTY, DVORAK]
+  l: [QWERTY, DVORAK, GAME1]
 - p: [38, 39]
   k: FUNC
+- p: [1, 2]
+  k: ESCAPE
+  l: [QWERTY, DVORAK, GAME1]
+- p: [37, 29]
+  k: GAME2
+  l: [GAME1]
